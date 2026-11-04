@@ -1,0 +1,295 @@
+{
+  "version": "1.0",
+  "project_id": "france-in-60-seconds",
+  "pipeline_type": "animated-explainer",
+  "stage": "research",
+  "status": "completed",
+  "timestamp": "2026-11-04T08:39:03.133617+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "research_brief": {
+      "version": "1.0",
+      "topic": "The history of France \u2014 60-second animated explainer",
+      "research_date": "2026-11-04",
+      "research_summary": "French history is usually told as a long march of kings, but the strongest 60-second hook is that 'France' itself was invented piece by piece: named after a Germanic tribe (the Franks), ruled by one family line for ~800 years (987\u20131848), unified linguistically only recently (Gr\u00e9goire's 1794 report: ~11% spoke fluent French), and rebuilt politically again and again (5 republics, ~15 constitutions since 1789). Existing short videos are 10\u201323 minutes; a true 60-second piece is an underserved format, and myth-busting (Napoleon's height, 'let them eat cake', the 116-year Hundred Years' War) gives built-in retention beats.",
+      "landscape": {
+        "existing_content": [
+          {
+            "title": "The Entire History of France in 23 Minutes",
+            "source": "youtube (WonderWhy)",
+            "angle": "Chronological narrated survey",
+            "what_it_covers": "Gaul to modern republic in one sweep",
+            "what_it_misses": "Too long for short-form; little myth-busting",
+            "engagement_signal": "~2.3M views",
+            "url": "https://pan-asian.blogspot.com/2024/04/the-entire-history-of-france-in-23.html"
+          },
+          {
+            "title": "France History Explained (2 Million Years in 13 Minutes)",
+            "source": "youtube/podcast",
+            "angle": "Deep-time chronological",
+            "what_it_covers": "Prehistory, Roman Gaul, Revolution, WWII",
+            "what_it_misses": "No single unifying idea",
+            "url": "https://www.audible.de/podcast/ITEM_NAME/B0GNGBM2D6"
+          },
+          {
+            "title": "How is France on its Fifth Republic? (Short Animated Documentary)",
+            "source": "youtube (History Matters)",
+            "angle": "Single-question explainer",
+            "what_it_covers": "Why France keeps restarting its republic",
+            "what_it_misses": "Only modern era",
+            "url": "https://rosetta.to/u/historymatters/how-is-france-on-its-fifth-republic-short-animated-documentary"
+          },
+          {
+            "title": "Ten Minute History - The French Revolution and Napoleon",
+            "source": "youtube (History Matters)",
+            "angle": "Era-focused short doc",
+            "what_it_covers": "1789\u20131815",
+            "what_it_misses": "Medieval/ancient foundations",
+            "url": "https://rosetta.to/u/historymatters/ten-minute-history-the-french-revolution-and-napoleon-short-documentary"
+          }
+        ],
+        "saturated_angles": [
+          "Plain chronological list of kings",
+          "French Revolution only",
+          "Napoleon biography"
+        ],
+        "underserved_gaps": [
+          "Genuine 60-second whole-history overview",
+          "'How France became France' identity angle (name, language, dynasty, republics)",
+          "Myth-busting woven into a timeline"
+        ]
+      },
+      "trending": {
+        "recent_developments": [
+          {
+            "headline": "French Navy marks 400 years since Richelieu's 1626 edict",
+            "date": "2026",
+            "relevance": "2026 anniversary hook option",
+            "url": "https://zwei-euro.com/en/news/design-of-france-s-second-2-euro-commemorative-coin-2026-the-french/"
+          },
+          {
+            "headline": "Armistice Day ceremonies, 11 November 2026",
+            "date": "2026-11-11",
+            "relevance": "Publishing window next week",
+            "url": "https://unidivers.fr/event/commemoration-de-la-victoire-et-de-la-paix-jour-de-larmistice-et-dhommage-a-tous-les-morts-pour-la-france-chartres-eure-et-loir-2026-11-11/"
+          }
+        ],
+        "timeliness_window": "evergreen"
+      },
+      "data_points": [
+        {
+          "claim": "Caesar defeated Vercingetorix at Alesia in 52 BC, completing the Roman conquest of Gaul",
+          "source_url": "https://www.britannica.com/event/Battle-of-Alesia-52-BCE",
+          "source_name": "Britannica",
+          "credibility": "secondary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "France is named after the Franks, a Germanic tribe; Clovis was baptized at Reims c. 496 (some scholars say 498\u2013508)",
+          "source_url": "https://en.wikipedia.org/wiki/Clovis_I",
+          "source_name": "Wikipedia: Clovis I",
+          "credibility": "secondary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "hook"
+        },
+        {
+          "claim": "Charlemagne was crowned emperor by Pope Leo III on Christmas Day 800",
+          "source_url": "https://www.thecollector.com/french-monarchy-early-middle-ages/",
+          "source_name": "TheCollector",
+          "credibility": "secondary_source",
+          "surprise_factor": "expected",
+          "usable_as": "script_anchor"
+        },
+        {
+          "claim": "Hugh Capet's line (Capetians incl. Valois and Bourbon branches) ruled France 987\u20131848 with two interruptions \u2014 over 800 years",
+          "source_url": "https://en.wikipedia.org/wiki/Capetian_dynasty",
+          "source_name": "Wikipedia: Capetian dynasty",
+          "credibility": "secondary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "The Hundred Years' War lasted 116 years (1337\u20131453); Joan of Arc lifted the siege of Orl\u00e9ans on 8 May 1429",
+          "source_url": "https://en.wikipedia.org/wiki/1429_in_France",
+          "source_name": "Wikipedia: 1429 in France",
+          "credibility": "secondary_source",
+          "surprise_factor": "notable",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "Gr\u00e9goire's 1794 report estimated only ~3 million people (~11%) spoke French fluently",
+          "source_url": "https://axl.cefan.ulaval.ca/francophonie/gregoire-rapport.htm",
+          "source_name": "Gr\u00e9goire report (Universit\u00e9 Laval CEFAN)",
+          "credibility": "primary_source",
+          "surprise_factor": "counterintuitive",
+          "usable_as": "stat_card"
+        },
+        {
+          "claim": "France has had 5 republics and ~15 constitutions since 1789 (Conseil constitutionnel count); the current one dates from 1958",
+          "source_url": "https://en.wikipedia.org/wiki/List_of_constitutions_of_France",
+          "source_name": "Wikipedia / Conseil constitutionnel",
+          "credibility": "secondary_source",
+          "surprise_factor": "surprising",
+          "usable_as": "closing_punch"
+        },
+        {
+          "claim": "Napoleon was about 5'7\" (average or above); the '5'2\"' myth came from French vs English inches and British propaganda",
+          "source_url": "https://www.thelocal.com/20220901/22-of-the-biggest-myths-about-french-history/",
+          "source_name": "The Local",
+          "credibility": "secondary_source",
+          "surprise_factor": "counterintuitive",
+          "usable_as": "script_anchor"
+        }
+      ],
+      "audience_insights": {
+        "common_questions": [
+          "Why is France on its Fifth Republic?",
+          "Where does the name 'France' come from?",
+          "How did France go from kings to a republic?",
+          "Was Napoleon actually short?"
+        ],
+        "misconceptions": [
+          {
+            "myth": "Marie Antoinette said 'Let them eat cake'",
+            "reality": "The phrase appears in Rousseau's Confessions, written when she was a child in Austria",
+            "source": "https://www.thelocal.com/20220802/french-history-myths-marie-antoinette-said-let-them-eat-cake"
+          },
+          {
+            "myth": "Napoleon was very short",
+            "reality": "About 5'7\"; unit confusion and propaganda",
+            "source": "https://www.thelocal.com/20220901/22-of-the-biggest-myths-about-french-history/"
+          },
+          {
+            "myth": "The Hundred Years' War lasted 100 years",
+            "reality": "116 years, 1337\u20131453",
+            "source": "https://en.wikipedia.org/wiki/1429_in_France"
+          }
+        ],
+        "knowledge_level": "General audience knows Revolution, Napoleon, Joan of Arc, Eiffel Tower; few know the Frankish name origin, Capetian continuity, or the language statistic",
+        "pain_points": [
+          "Long dynasty lists are boring",
+          "Hard to see how eras connect"
+        ]
+      },
+      "angles_discovered": [
+        {
+          "name": "2,000 Years of France in 60 Seconds",
+          "hook": "Two thousand years, five republics, one minute \u2014 go.",
+          "type": "evergreen",
+          "why_now": "Existing overviews run 13\u201323 minutes; no true 60-second version",
+          "grounded_in": [
+            "landscape gap",
+            "Alesia 52 BC",
+            "5 republics"
+          ]
+        },
+        {
+          "name": "France Wasn't Always French",
+          "hook": "France is named after Germans, and in 1794 almost nobody spoke French.",
+          "type": "contrarian",
+          "why_now": "Frankish name + Gr\u00e9goire 11% are high-surprise facts",
+          "grounded_in": [
+            "Franks name origin",
+            "Gr\u00e9goire 11%"
+          ]
+        },
+        {
+          "name": "One Family, 800 Years, Then a Revolution",
+          "hook": "One family ruled France for 800 years \u2014 then France tried to rule itself.",
+          "type": "narrative",
+          "why_now": "Capetian 987\u20131848 continuity vs. 15 constitutions after 1789",
+          "grounded_in": [
+            "Capetian dynasty",
+            "15 constitutions"
+          ]
+        },
+        {
+          "name": "French History: Myths vs Facts",
+          "hook": "Napoleon wasn't short, and the Hundred Years' War wasn't 100 years.",
+          "type": "data_driven",
+          "why_now": "Myth-busting drives retention; well-documented myths",
+          "grounded_in": [
+            "Napoleon height",
+            "116 years",
+            "cake myth"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "url": "https://www.britannica.com/event/Battle-of-Alesia-52-BCE",
+          "title": "Battle of Alesia \u2014 Britannica",
+          "used_for": "data_points",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Clovis_I",
+          "title": "Clovis I",
+          "used_for": "data_points",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/Capetian_dynasty",
+          "title": "Capetian dynasty",
+          "used_for": "data_points",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/1429_in_France",
+          "title": "1429 in France",
+          "used_for": "data_points",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://axl.cefan.ulaval.ca/francophonie/gregoire-rapport.htm",
+          "title": "Rapport Gr\u00e9goire (1794)",
+          "used_for": "data_points",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://en.wikipedia.org/wiki/List_of_constitutions_of_France",
+          "title": "List of constitutions of France",
+          "used_for": "data_points",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://eurydice.eacea.ec.europa.eu/eurypedia/france/historical-development",
+          "title": "Eurypedia: France historical development",
+          "used_for": "data_points",
+          "reliability": "primary"
+        },
+        {
+          "url": "https://www.thelocal.com/20220901/22-of-the-biggest-myths-about-french-history/",
+          "title": "22 of the biggest myths about French history",
+          "used_for": "audience_insights",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://www.thelocal.com/20220802/french-history-myths-marie-antoinette-said-let-them-eat-cake",
+          "title": "Marie-Antoinette 'let them eat cake' myth",
+          "used_for": "audience_insights",
+          "reliability": "secondary"
+        },
+        {
+          "url": "https://pan-asian.blogspot.com/2024/04/the-entire-history-of-france-in-23.html",
+          "title": "Entire History of France in 23 Minutes",
+          "used_for": "landscape",
+          "reliability": "anecdotal"
+        }
+      ]
+    }
+  },
+  "review": {
+    "status": "passed",
+    "round": 1,
+    "findings": [
+      {
+        "severity": "suggestion",
+        "note": "Most sources secondary; facts cross-checked across multiple results"
+      }
+    ]
+  }
+}
