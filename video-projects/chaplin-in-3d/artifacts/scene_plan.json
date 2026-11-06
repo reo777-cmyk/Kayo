@@ -1,0 +1,502 @@
+{
+  "version": "1.0",
+  "style_playbook": "custom",
+  "scenes": [
+    {
+      "id": "sc1",
+      "type": "animation",
+      "script_section_id": "s1",
+      "description": "Foggy miniature London street at night, cobbles, terraced houses, flickering gas lamps",
+      "start_seconds": 0,
+      "end_seconds": 5,
+      "framing": "Establishing high angle, street recedes into fog (FG lamp post, MG houses, BG fog)",
+      "movement": "Slow descending glide down the street toward z=-12",
+      "transition_in": "Iris-in from black",
+      "transition_out": "Continuous camera travel",
+      "overlay_notes": "Intertitle 'London, 1896.' in deco frame, lower third, fades in 0.8s",
+      "shot_language": {
+        "shot_size": "establishing",
+        "camera_movement": "crane_down",
+        "lens_mm": 35,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "narrative_role": "establish_context",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "cobbled street",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "terraced houses",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "gas lamps with flicker",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "fog",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "sc2",
+      "type": "animation",
+      "script_section_id": "s2",
+      "description": "Grim brick workhouse with barred windows; a tiny child-sized bowler hat sits alone on its step",
+      "start_seconds": 5,
+      "end_seconds": 12,
+      "framing": "Medium wide, workhouse fills frame, hat small at bottom centre",
+      "movement": "Slow dolly in toward the step",
+      "transition_in": "Camera travel",
+      "transition_out": "Wall hinge begins",
+      "overlay_notes": "Intertitle 'Age seven. The workhouse.'",
+      "shot_language": {
+        "shot_size": "medium_wide",
+        "camera_movement": "dolly_in",
+        "lens_mm": 50,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "narrative_role": "introduce_subject",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "workhouse building",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "small bowler hat",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "small hat sits still",
+            "hat gives one small hop"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc3",
+      "type": "animation",
+      "script_section_id": "s3",
+      "description": "Workhouse front wall hinges down like a toy theatre to reveal a music-hall stage; footlights pop on one by one; curtains part",
+      "start_seconds": 12,
+      "end_seconds": 19,
+      "framing": "Medium, stage centred, footlights FG",
+      "movement": "Push through the opening onto the stage",
+      "transition_in": "Transform (wall folds)",
+      "transition_out": "Camera rises up and out",
+      "overlay_notes": "Intertitle 'A boy finds the stage.'",
+      "shot_language": {
+        "shot_size": "medium",
+        "camera_movement": "dolly_in",
+        "lens_mm": 35,
+        "lighting_key": "high_key",
+        "depth_of_field": "deep",
+        "color_temperature": "neutral"
+      },
+      "narrative_role": "build_tension",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "hinged wall",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "proscenium stage",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "footlights",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "curtains",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "small hat slides into the spotlight",
+            "hat grows to full size"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc4",
+      "type": "animation",
+      "script_section_id": "s4",
+      "description": "Sunlit 1914 racetrack with grandstand, rails and an early film camera on a tripod; the Tramp props waddle past the camera",
+      "start_seconds": 19,
+      "end_seconds": 27,
+      "framing": "Wide then medium tracking alongside the props, film camera FG",
+      "movement": "Crane up and out of the theatre, travel to racetrack, then track right with the props",
+      "transition_in": "Camera travel",
+      "transition_out": "Camera travel",
+      "overlay_notes": "Intertitle '1914. A bowler. A cane. The Tramp.'",
+      "shot_language": {
+        "shot_size": "wide",
+        "camera_movement": "tracking_right",
+        "lens_mm": 35,
+        "lighting_key": "natural",
+        "depth_of_field": "deep",
+        "color_temperature": "neutral"
+      },
+      "narrative_role": "deliver_payload",
+      "hero_moment": true,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "racetrack and grandstand",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "1910s film camera on tripod",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "bowler hat",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "cane",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "oversized shoes",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "shoes waddle with turned-out feet",
+            "cane twirls",
+            "hat bobs and tips at the film camera"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc5",
+      "type": "animation",
+      "script_section_id": "s5",
+      "description": "Studio lot assembles itself: soundstage blocks rise from the ground, gate arch drops in with sign UNITED ARTISTS",
+      "start_seconds": 27,
+      "end_seconds": 34,
+      "framing": "Medium wide, gate centred",
+      "movement": "Dolly in toward the gate",
+      "transition_in": "Camera travel",
+      "transition_out": "Through the gate",
+      "overlay_notes": "Intertitle '1919. He answers to no one.'",
+      "shot_language": {
+        "shot_size": "medium_wide",
+        "camera_movement": "dolly_in",
+        "lens_mm": 35,
+        "lighting_key": "natural",
+        "depth_of_field": "deep",
+        "color_temperature": "neutral"
+      },
+      "narrative_role": "evidence",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "soundstage blocks",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "gate arch with UNITED ARTISTS sign",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "cane taps the gate",
+            "gates swing open",
+            "props stroll through"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc6",
+      "type": "animation",
+      "script_section_id": "s6",
+      "description": "Inside the soundstage: a huge boom microphone lowers toward the hat; the hat turns its back; the mic droops",
+      "start_seconds": 34,
+      "end_seconds": 41,
+      "framing": "Medium close, mic enters from top of frame",
+      "movement": "Slow orbit around the props",
+      "transition_in": "Through the gate",
+      "transition_out": "Cut by camera whip up to the sky",
+      "overlay_notes": "Intertitle 'Hollywood learns to talk. He doesn't.'",
+      "shot_language": {
+        "shot_size": "medium_close",
+        "camera_movement": "orbital",
+        "lens_mm": 50,
+        "lighting_key": "rim_lit",
+        "depth_of_field": "deep",
+        "color_temperature": "neutral"
+      },
+      "narrative_role": "comparison",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "boom microphone",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "soundstage interior",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "mic lowers",
+            "hat turns away",
+            "mic droops sadly"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc7",
+      "type": "animation",
+      "script_section_id": "s7",
+      "description": "Night ocean under fog; an ocean liner sails away from the coast; a giant door on the shoreline swings shut with a thud",
+      "start_seconds": 41,
+      "end_seconds": 49,
+      "framing": "Extreme wide, liner small MG, door FG right",
+      "movement": "Pull back and up over the water",
+      "transition_in": "Whip from sky into the ocean",
+      "transition_out": "Fade through fog",
+      "overlay_notes": "Intertitle '1952. America locks the door.'",
+      "shot_language": {
+        "shot_size": "extreme_wide",
+        "camera_movement": "dolly_out",
+        "lens_mm": 24,
+        "lighting_key": "low_key",
+        "depth_of_field": "deep",
+        "color_temperature": "cool"
+      },
+      "narrative_role": "emotional_beat",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "ocean surface",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "ocean liner",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "giant coastal door",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "fog",
+          "source": "generate"
+        }
+      ]
+    },
+    {
+      "id": "sc8",
+      "type": "animation",
+      "script_section_id": "s8",
+      "description": "Oscar stage: darkness, then a single WARM-coloured spotlight (the only colour in the film) finds the hat and cane; rows of tiny audience figures rise row by row",
+      "start_seconds": 49,
+      "end_seconds": 57,
+      "framing": "Wide from audience, then dolly in to medium on the props",
+      "movement": "Dolly in down the aisle",
+      "transition_in": "Fade through fog",
+      "transition_out": "Hold",
+      "overlay_notes": "Intertitle '1972. Twelve minutes of applause.'",
+      "shot_language": {
+        "shot_size": "wide",
+        "camera_movement": "dolly_in",
+        "lens_mm": 35,
+        "lighting_key": "volumetric",
+        "depth_of_field": "deep",
+        "color_temperature": "warm"
+      },
+      "narrative_role": "resolution",
+      "hero_moment": true,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "stage with curtains",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "warm spotlight",
+          "source": "generate"
+        },
+        {
+          "type": "3d_procedural",
+          "description": "rows of low-poly audience figures",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "props stand still in the light",
+            "audience rows rise in a wave"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    },
+    {
+      "id": "sc9",
+      "type": "animation",
+      "script_section_id": "s9",
+      "description": "Close on the bowler hat; it tips once to camera",
+      "start_seconds": 57,
+      "end_seconds": 60,
+      "framing": "Close up, hat centred",
+      "movement": "Static",
+      "transition_in": "Hold",
+      "transition_out": "Iris-out to black",
+      "overlay_notes": "Intertitle 'The End.' centred after iris closes",
+      "shot_language": {
+        "shot_size": "close_up",
+        "camera_movement": "static",
+        "lens_mm": 85,
+        "lighting_key": "volumetric",
+        "depth_of_field": "deep",
+        "color_temperature": "warm"
+      },
+      "narrative_role": "call_to_action",
+      "hero_moment": false,
+      "texture_keywords": [
+        "silent film",
+        "black and white",
+        "film grain",
+        "low-poly miniature"
+      ],
+      "required_assets": [
+        {
+          "type": "3d_procedural",
+          "description": "bowler hat",
+          "source": "generate"
+        }
+      ],
+      "character_actions": [
+        {
+          "character_id": "tramp_props",
+          "action_sequence": [
+            "hat tips"
+          ],
+          "notes": "Invisible Tramp: floating bowler hat, cane and oversized shoes; no face or body, no likeness"
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "canvas": "1080x1920 portrait, 30 fps, 60 s",
+    "world_coordinates": "One continuous Three.js world along the -Z axis: street z 0..-10, workhouse/stage z -12, racetrack z -30, studio lot z -48..-52, ocean z -70..-95, Oscar stage z -115. Camera travels between stations; never cuts to a separate scene.",
+    "transition_rules": "Only three families: iris (open/close), continuous camera travel, and fog fade. No other transitions.",
+    "intertitle_style": "Silent-film card overlay: white serif text in a thin art-deco frame on a dark plate, fades in 0.8s, holds, fades out 0.5s before section end; max 8 words; overlay is separate from 3D depth.",
+    "look": "Greyscale materials and fog; CSS film grain, gentle flicker and vignette computed from time (deterministic). Warm colour only at sc8-sc9.",
+    "audio": "Silent (no audio track)",
+    "tool_path_map": "Hand-authored Three.js scene in a HyperFrames atelier workspace; three and gsap vendored locally from npm (CDN blocked); procedural low-poly geometry only.",
+    "likeness_policy": "Invisible Tramp props only (hat, cane, shoes); no face, body or likeness of Chaplin; no film footage or stills."
+  }
+}

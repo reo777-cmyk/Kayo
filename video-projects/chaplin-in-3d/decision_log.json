@@ -129,6 +129,29 @@
       ],
       "selected": "9x16",
       "reason": "User chose 9:16; fidelity tier blockout/stylized due to no Blender/assets"
+    },
+    {
+      "decision_id": "d-toolpath",
+      "stage": "scene_plan",
+      "category": "capability_extension",
+      "subject": "3D build tool path",
+      "options_considered": [
+        {
+          "option_id": "handauthored",
+          "label": "Hand-authored Three.js set pieces in HyperFrames",
+          "score": 0.9,
+          "reason": "Story needs discrete set pieces (street, stage, racetrack, ship), not terrain; render probe passed"
+        },
+        {
+          "option_id": "threejs_world",
+          "label": "threejs_world terrain generator",
+          "score": 0.4,
+          "reason": "Built for biomes/terrain fly-throughs; its blockout tier is not meant as a final deliverable",
+          "rejected_because": "poor fit for set-piece diorama"
+        }
+      ],
+      "selected": "handauthored",
+      "reason": "Same runtime (HyperFrames) and look as approved; only the build tool differs"
     }
   ]
 }

@@ -3,11 +3,11 @@
   "project_id": "chaplin-in-3d",
   "pipeline_type": "animation",
   "stage": "script",
-  "status": "awaiting_human",
-  "timestamp": "2026-11-06T11:23:23.294188+00:00",
+  "status": "completed",
+  "timestamp": "2026-11-06T11:25:07.915171+00:00",
   "checkpoint_policy": "guided",
   "human_approval_required": true,
-  "human_approved": false,
+  "human_approved": true,
   "artifacts": {
     "script": {
       "version": "1.0",
@@ -155,15 +155,5 @@
         "fact_notes": "Age 7 in 1896 (born April 1889, admitted May 1896); age 82 at 10 April 1972 ceremony"
       }
     }
-  },
-  "review": {
-    "status": "passed",
-    "round": 1,
-    "findings": [
-      {
-        "severity": "nitpick",
-        "note": "All intertitles <= 8 words; every date traceable to research_brief"
-      }
-    ]
   }
 }
