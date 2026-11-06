@@ -1,0 +1,27 @@
+{
+  "version": "1.0",
+  "outputs": [
+    {
+      "path": "projects/chaplin-in-3d/renders/final.mp4",
+      "format": "mp4",
+      "codec": "h264",
+      "resolution": "1080x1920",
+      "fps": 30,
+      "duration_seconds": 60.0,
+      "file_size_bytes": 110022029,
+      "platform_target": "tiktok/reels/shorts (9:16)"
+    }
+  ],
+  "render_time_seconds": 1910,
+  "render_grammar": "animation-first",
+  "warnings": [
+    "Silent by user choice (no audio track)",
+    "video_compose wrapper's 30-minute timeout was too short for CPU-only WebGL; the same hyperframes render command was run directly (same runtime/settings)",
+    "wrapper bug: hyperframes_compose._run_hf raises TypeError when handling a timeout (bytes + str)"
+  ],
+  "verification_notes": [
+    "ffprobe: 1800 frames, 60.000 s, 1080x1920, 30 fps, h264",
+    "No black stretches > 0.5 s detected",
+    "Sampled frames at 5/21/31/38/45.5/55 s match the approved assets review"
+  ]
+}

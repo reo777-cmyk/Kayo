@@ -1,0 +1,10 @@
+{"ts": "2026-11-06T11:41:06.500002+00:00", "tool": "video_compose", "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T11:41:08.271957+00:00", "tool": "hyperframes_compose", "depth": 1, "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T11:41:08.506282+00:00", "tool": "hyperframes_compose", "depth": 1, "event": "finish", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 0.23}
+{"ts": "2026-11-06T11:41:08.506424+00:00", "tool": "video_compose", "event": "finish", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 2.01}
+{"ts": "2026-11-06T11:41:19.417231+00:00", "tool": "video_compose", "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T11:41:20.775422+00:00", "tool": "hyperframes_compose", "depth": 1, "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T11:51:16.637934+00:00", "tool": "video_compose", "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T11:51:18.472277+00:00", "tool": "hyperframes_compose", "depth": 1, "event": "start", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4"}
+{"ts": "2026-11-06T12:23:05.522534+00:00", "tool": "hyperframes_compose", "depth": 1, "event": "finish", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 1907.05}
+{"ts": "2026-11-06T12:23:05.522703+00:00", "tool": "video_compose", "event": "finish", "output_path": "/home/user/Kayo/OpenMontage/projects/chaplin-in-3d/renders/final.mp4", "success": false, "cost_usd": 0.0, "duration_s": 1908.88}

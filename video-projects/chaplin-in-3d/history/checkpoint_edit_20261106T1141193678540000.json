@@ -1,0 +1,78 @@
+{
+  "version": "1.0",
+  "project_id": "chaplin-in-3d",
+  "pipeline_type": "animation",
+  "stage": "edit",
+  "status": "completed",
+  "timestamp": "2026-11-06T11:41:19.367854+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": false,
+  "human_approved": false,
+  "artifacts": {
+    "edit_decisions": {
+      "version": "1.0",
+      "render_runtime": "hyperframes",
+      "composition_mode": "atelier",
+      "renderer_family": "animation-first",
+      "cuts": [
+        {
+          "id": "sc1",
+          "source": "world",
+          "in_seconds": 0,
+          "out_seconds": 5
+        },
+        {
+          "id": "sc2",
+          "source": "world",
+          "in_seconds": 5,
+          "out_seconds": 12
+        },
+        {
+          "id": "sc3",
+          "source": "world",
+          "in_seconds": 12,
+          "out_seconds": 19
+        },
+        {
+          "id": "sc4",
+          "source": "world",
+          "in_seconds": 19,
+          "out_seconds": 27
+        },
+        {
+          "id": "sc5",
+          "source": "world",
+          "in_seconds": 27,
+          "out_seconds": 34
+        },
+        {
+          "id": "sc6",
+          "source": "world",
+          "in_seconds": 34,
+          "out_seconds": 41
+        },
+        {
+          "id": "sc7",
+          "source": "world",
+          "in_seconds": 41,
+          "out_seconds": 49
+        },
+        {
+          "id": "sc8",
+          "source": "world",
+          "in_seconds": 49,
+          "out_seconds": 57
+        },
+        {
+          "id": "sc9",
+          "source": "world",
+          "in_seconds": 57,
+          "out_seconds": 60
+        }
+      ],
+      "metadata": {
+        "note": "Single continuous authored HyperFrames workspace; camera times carried unchanged from scene_plan; silent"
+      }
+    }
+  }
+}
