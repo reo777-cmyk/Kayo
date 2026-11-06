@@ -1,0 +1,157 @@
+{
+  "version": "1.0",
+  "project_id": "chaplin-in-3d",
+  "decisions": [
+    {
+      "decision_id": "d-concept",
+      "stage": "proposal",
+      "category": "concept_selection",
+      "subject": "Concept",
+      "options_considered": [
+        {
+          "option_id": "c1",
+          "label": "Workhouse to Ovation",
+          "score": 0.9,
+          "reason": "strongest arc"
+        },
+        {
+          "option_id": "c2",
+          "label": "Refused to Talk",
+          "score": 0.7,
+          "reason": "narrower"
+        },
+        {
+          "option_id": "c3",
+          "label": "Banished",
+          "score": 0.7,
+          "reason": "narrower"
+        }
+      ],
+      "selected": "c1",
+      "reason": "User picked A"
+    },
+    {
+      "decision_id": "d-runtime",
+      "stage": "proposal",
+      "category": "render_runtime_selection",
+      "subject": "Render runtime",
+      "options_considered": [
+        {
+          "option_id": "hyperframes",
+          "label": "HyperFrames + Three.js",
+          "score": 0.9,
+          "reason": "3D world route, doctor passed"
+        },
+        {
+          "option_id": "remotion",
+          "label": "Remotion",
+          "score": 0.3,
+          "reason": "no 3D package installed"
+        },
+        {
+          "option_id": "ffmpeg",
+          "label": "FFmpeg + Blender frames",
+          "score": 0.0,
+          "reason": "Blender not available on this machine"
+        }
+      ],
+      "selected": "hyperframes",
+      "reason": "User approved HyperFrames"
+    },
+    {
+      "decision_id": "d-mode",
+      "stage": "proposal",
+      "category": "composition_mode",
+      "subject": "Authoring mode",
+      "options_considered": [
+        {
+          "option_id": "atelier",
+          "label": "Atelier",
+          "score": 0.9,
+          "reason": "required for Three.js worlds"
+        },
+        {
+          "option_id": "templated",
+          "label": "Templated",
+          "score": 0.1,
+          "reason": "stock scenes are 2D"
+        }
+      ],
+      "selected": "atelier",
+      "reason": "3D world skill requires atelier"
+    },
+    {
+      "decision_id": "d-music",
+      "stage": "proposal",
+      "category": "music_source",
+      "subject": "Music",
+      "options_considered": [
+        {
+          "option_id": "none",
+          "label": "Silent",
+          "score": 0.9,
+          "reason": "on-theme, free"
+        },
+        {
+          "option_id": "lyria",
+          "label": "Gemini Lyria",
+          "score": 0.6,
+          "reason": "no key in session"
+        },
+        {
+          "option_id": "pixabay",
+          "label": "Pixabay search",
+          "score": 0.0,
+          "reason": "network blocked"
+        }
+      ],
+      "selected": "none",
+      "reason": "User chose silent"
+    },
+    {
+      "decision_id": "d-format",
+      "stage": "proposal",
+      "category": "budget_tradeoff",
+      "subject": "Format and fidelity",
+      "options_considered": [
+        {
+          "option_id": "9x16",
+          "label": "9:16 stylized low-poly",
+          "score": 0.9,
+          "reason": "user choice"
+        },
+        {
+          "option_id": "16x9",
+          "label": "16:9",
+          "score": 0.5,
+          "reason": "not chosen"
+        }
+      ],
+      "selected": "9x16",
+      "reason": "User chose 9:16; fidelity tier blockout/stylized due to no Blender/assets"
+    },
+    {
+      "decision_id": "d-toolpath",
+      "stage": "scene_plan",
+      "category": "capability_extension",
+      "subject": "3D build tool path",
+      "options_considered": [
+        {
+          "option_id": "handauthored",
+          "label": "Hand-authored Three.js set pieces in HyperFrames",
+          "score": 0.9,
+          "reason": "Story needs discrete set pieces (street, stage, racetrack, ship), not terrain; render probe passed"
+        },
+        {
+          "option_id": "threejs_world",
+          "label": "threejs_world terrain generator",
+          "score": 0.4,
+          "reason": "Built for biomes/terrain fly-throughs; its blockout tier is not meant as a final deliverable",
+          "rejected_because": "poor fit for set-piece diorama"
+        }
+      ],
+      "selected": "handauthored",
+      "reason": "Same runtime (HyperFrames) and look as approved; only the build tool differs"
+    }
+  ]
+}
