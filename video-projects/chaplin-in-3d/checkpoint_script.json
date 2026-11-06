@@ -1,0 +1,169 @@
+{
+  "version": "1.0",
+  "project_id": "chaplin-in-3d",
+  "pipeline_type": "animation",
+  "stage": "script",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-06T11:23:23.294188+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "script": {
+      "version": "1.0",
+      "title": "From Workhouse to Standing Ovation",
+      "total_duration_seconds": 60,
+      "sections": [
+        {
+          "id": "s1",
+          "label": "Iris in",
+          "text": "London, 1896.",
+          "start_seconds": 0,
+          "end_seconds": 5,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Iris-in from black onto a foggy miniature London street at night; gas lamps flicker"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=statement; max 8 words",
+          "source_ref": "workhouse 1896"
+        },
+        {
+          "id": "s2",
+          "label": "Workhouse",
+          "text": "Age seven. The workhouse.",
+          "start_seconds": 5,
+          "end_seconds": 12,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Camera drifts down the street to a grim brick workhouse; a tiny boy-sized bowler sits on its step"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=statement; max 8 words"
+        },
+        {
+          "id": "s3",
+          "label": "The stage",
+          "text": "A boy finds the stage.",
+          "start_seconds": 12,
+          "end_seconds": 19,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Workhouse wall folds open into a music-hall stage; footlights pop on"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=transformation; max 8 words"
+        },
+        {
+          "id": "s4",
+          "label": "The Tramp",
+          "text": "1914. A bowler. A cane. The Tramp.",
+          "start_seconds": 19,
+          "end_seconds": 27,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Camera rises out to a sunlit racetrack; the bowler hat drops onto a cane that twirls and waddles along"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=demonstration; max 8 words",
+          "source_ref": "Tramp debut 1914"
+        },
+        {
+          "id": "s5",
+          "label": "United Artists",
+          "text": "1919. He answers to no one.",
+          "start_seconds": 27,
+          "end_seconds": 34,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "A studio lot builds itself; a gate sign reads UNITED ARTISTS; cane taps it open"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=statement; max 8 words",
+          "source_ref": "United Artists 1919"
+        },
+        {
+          "id": "s6",
+          "label": "Stays silent",
+          "text": "Hollywood learns to talk. He doesn't.",
+          "start_seconds": 34,
+          "end_seconds": 41,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "A big microphone lowers into frame; the hat turns away from it; mic droops"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=comparison; max 8 words",
+          "source_ref": "City Lights/Modern Times"
+        },
+        {
+          "id": "s7",
+          "label": "Exile",
+          "text": "1952. America locks the door.",
+          "start_seconds": 41,
+          "end_seconds": 49,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Camera pulls back over a fog-covered ocean; a liner sails away; a giant door swings shut on the coast"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=transformation; max 8 words",
+          "source_ref": "1952 permit revoked"
+        },
+        {
+          "id": "s8",
+          "label": "Ovation",
+          "text": "1972. Twelve minutes of applause.",
+          "start_seconds": 49,
+          "end_seconds": 57,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Spotlight in warm colour, the only colour in the film, finds the hat and cane on an Oscar stage; rows of tiny figures rise"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=conclusion; max 8 words",
+          "source_ref": "1972 ovation"
+        },
+        {
+          "id": "s9",
+          "label": "The End",
+          "text": "The End.",
+          "start_seconds": 57,
+          "end_seconds": 60,
+          "enhancement_cues": [
+            {
+              "type": "animation",
+              "description": "Hat tips; iris-out to black"
+            }
+          ],
+          "speaker_directions": "SILENT intertitle card; beat=conclusion; max 8 words"
+        }
+      ],
+      "metadata": {
+        "format": "1080x1920 (9:16)",
+        "audio": "silent",
+        "style": "black-and-white silent film, film grain, iris transitions, one colour accent at s8",
+        "likeness_policy": "no Chaplin likeness; bowler hat and cane represent him",
+        "fact_notes": "Age 7 in 1896 (born April 1889, admitted May 1896); age 82 at 10 April 1972 ceremony"
+      }
+    }
+  },
+  "review": {
+    "status": "passed",
+    "round": 1,
+    "findings": [
+      {
+        "severity": "nitpick",
+        "note": "All intertitles <= 8 words; every date traceable to research_brief"
+      }
+    ]
+  }
+}
