@@ -3,11 +3,11 @@
   "project_id": "chaplin-in-3d",
   "pipeline_type": "animation",
   "stage": "scene_plan",
-  "status": "awaiting_human",
-  "timestamp": "2026-11-06T11:27:12.929517+00:00",
+  "status": "completed",
+  "timestamp": "2026-11-06T11:27:52.401092+00:00",
   "checkpoint_policy": "guided",
   "human_approval_required": true,
-  "human_approved": false,
+  "human_approved": true,
   "artifacts": {
     "scene_plan": {
       "version": "1.0",
@@ -510,45 +510,6 @@
         "tool_path_map": "Hand-authored Three.js scene in a HyperFrames atelier workspace; three and gsap vendored locally from npm (CDN blocked); procedural low-poly geometry only.",
         "likeness_policy": "Invisible Tramp props only (hat, cane, shoes); no face, body or likeness of Chaplin; no film footage or stills."
       }
-    },
-    "decision_log": {
-      "version": "1.0",
-      "project_id": "chaplin-in-3d",
-      "decisions": [
-        {
-          "decision_id": "d-toolpath",
-          "stage": "scene_plan",
-          "category": "capability_extension",
-          "subject": "3D build tool path",
-          "options_considered": [
-            {
-              "option_id": "handauthored",
-              "label": "Hand-authored Three.js set pieces in HyperFrames",
-              "score": 0.9,
-              "reason": "Story needs discrete set pieces (street, stage, racetrack, ship), not terrain; render probe passed"
-            },
-            {
-              "option_id": "threejs_world",
-              "label": "threejs_world terrain generator",
-              "score": 0.4,
-              "reason": "Built for biomes/terrain fly-throughs; its blockout tier is not meant as a final deliverable",
-              "rejected_because": "poor fit for set-piece diorama"
-            }
-          ],
-          "selected": "handauthored",
-          "reason": "Same runtime (HyperFrames) and look as approved; only the build tool differs"
-        }
-      ]
     }
-  },
-  "review": {
-    "status": "passed",
-    "round": 1,
-    "findings": [
-      {
-        "severity": "suggestion",
-        "note": "All 5 aspects specified per scene; overlays separated; 3 transition families only"
-      }
-    ]
   }
 }

@@ -1,0 +1,71 @@
+{
+  "version": "1.0",
+  "project_id": "chaplin-in-3d",
+  "pipeline_type": "animation",
+  "stage": "assets",
+  "status": "awaiting_human",
+  "timestamp": "2026-11-06T11:40:05.872188+00:00",
+  "checkpoint_policy": "guided",
+  "human_approval_required": true,
+  "human_approved": false,
+  "artifacts": {
+    "asset_manifest": {
+      "version": "1.0",
+      "assets": [
+        {
+          "id": "world",
+          "type": "3d_world",
+          "path": "projects/chaplin-in-3d/hyperframes/index.html",
+          "source_tool": "hand-authored Three.js (HyperFrames atelier)",
+          "scene_id": "all"
+        },
+        {
+          "id": "vendor-three",
+          "type": "code_snippet",
+          "path": "projects/chaplin-in-3d/hyperframes/vendor/three.module.js",
+          "source_tool": "npm three@0.181.2 (MIT)",
+          "scene_id": "all"
+        },
+        {
+          "id": "vendor-gsap",
+          "type": "code_snippet",
+          "path": "projects/chaplin-in-3d/hyperframes/vendor/gsap.min.js",
+          "source_tool": "npm gsap@3.15.0",
+          "scene_id": "all"
+        },
+        {
+          "id": "font",
+          "type": "font",
+          "path": "hyperframes font cache: eb-garamond",
+          "source_tool": "HyperFrames deterministic font mapping (EB Garamond, OFL)",
+          "scene_id": "all"
+        },
+        {
+          "id": "review-sheet",
+          "type": "image",
+          "path": "projects/chaplin-in-3d/assets/review/assets-review-contact-sheet.jpg",
+          "source_tool": "hyperframes snapshot",
+          "scene_id": "all"
+        }
+      ]
+    }
+  },
+  "review": {
+    "status": "passed",
+    "round": 3,
+    "findings": [
+      {
+        "severity": "suggestion",
+        "note": "3 refinement rounds: night exposure, portrait framing, station bleed-through fixed"
+      },
+      {
+        "severity": "nitpick",
+        "note": "~1s around 32.6s the UNITED ARTISTS sign passes under the card during the push-in"
+      },
+      {
+        "severity": "nitpick",
+        "note": "Silent by user choice (HyperFrames craft warning film_silent acknowledged)"
+      }
+    ]
+  }
+}
