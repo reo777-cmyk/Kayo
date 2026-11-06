@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "topic": "Charlie Chaplin — 60-second 3D animated video",
+  "research_date": "2026-11-06",
+  "research_summary": "Chaplin's arc is a natural three-act story: a London child in the workhouse (1896), the Tramp's debut (Kid Auto Races at Venice, 1914) and full creative control (co-founding United Artists, 1919), then exile (re-entry permit revoked, 1952) and a 12-minute standing ovation at the 1972 Oscars. He resisted talkies into the sound era, so a silent, intertitle-driven 3D piece is thematically on-brand rather than a compromise. Rights note: Bubbles Inc. controls commercial use of his name/likeness/Tramp image and Roy Export owns the films/stills — a biographical piece should evoke iconography (bowler, cane, film set) rather than replicate his likeness or footage.",
+  "landscape": {
+    "existing_content": [
+      {
+        "title": "Charlie Chaplin (Wikipedia biography)",
+        "source": "encyclopedia",
+        "angle": "Full chronological biography",
+        "what_it_covers": "Childhood to death",
+        "what_it_misses": "Not a visual short",
+        "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin"
+      },
+      {
+        "title": "When Charlie Chaplin entered a Chaplin look-alike contest",
+        "source": "blog (Open Culture)",
+        "angle": "Viral anecdote",
+        "what_it_covers": "Lookalike contest legend",
+        "what_it_misses": "Treats a disputed story as fact",
+        "url": "https://www.openculture.com/2016/06/when-charlie-chaplin-entered-a-chaplin-look-alike-contest-and-came-in-20th-place.html"
+      },
+      {
+        "title": "Charlie Chaplin's renegade anti-fascism in The Great Dictator",
+        "source": "blog (Perisphere)",
+        "angle": "Single-film deep dive",
+        "what_it_covers": "1940 satire of Hitler",
+        "what_it_misses": "Rest of career",
+        "url": "https://www.perisphere.org/?p=7806"
+      }
+    ],
+    "saturated_angles": [
+      "Lookalike-contest trivia",
+      "Generic 'king of silent comedy' biography"
+    ],
+    "underserved_gaps": [
+      "Chaplin's story told in a stylized 3D world rather than archive clips",
+      "Rags-to-exile-to-ovation arc in under a minute"
+    ]
+  },
+  "trending": {
+    "timeliness_window": "evergreen"
+  },
+  "data_points": [
+    {
+      "claim": "In 1896 Chaplin, his mother and half-brother were admitted to a London workhouse; he was in workhouses twice before age nine",
+      "source_url": "https://www.workhouses.org.uk/Chaplin",
+      "source_name": "workhouses.org.uk",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "hook"
+    },
+    {
+      "claim": "The Tramp costume debuted in Kid Auto Races at Venice, released 7 February 1914",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+      "source_name": "Wikipedia",
+      "credibility": "secondary_source",
+      "surprise_factor": "expected",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "Chaplin co-founded United Artists in 1919, gaining full creative control",
+      "source_url": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+      "source_name": "Wikipedia",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "stat_card"
+    },
+    {
+      "claim": "Chaplin kept making silent-style films into the sound era (City Lights 1931, Modern Times 1936) and wrote his own scores, including the 'Smile' melody",
+      "source_url": "https://britannica.com/biography/Charlie-Chaplin/The-sound-era-City-Lights-to-Limelight",
+      "source_name": "Britannica",
+      "credibility": "secondary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "In September 1952, while sailing to London for Limelight's premiere, his US re-entry permit was revoked",
+      "source_url": "https://www.plansponsor.com/trivial-pursuits-why-was-charlie-chaplin-not-allowed-to-return-to-the-u-s/",
+      "source_name": "PlanSponsor",
+      "credibility": "secondary_source",
+      "surprise_factor": "surprising",
+      "usable_as": "script_anchor"
+    },
+    {
+      "claim": "He returned in April 1972 for an honorary Oscar and received a 12-minute standing ovation; knighted in March 1975",
+      "source_url": "https://todayinclh.com/?p=1766",
+      "source_name": "Today in CLH",
+      "credibility": "secondary_source",
+      "surprise_factor": "notable",
+      "usable_as": "closing_punch"
+    }
+  ],
+  "audience_insights": {
+    "common_questions": [
+      "Why was Chaplin banned from the US?",
+      "Did Chaplin really lose a Chaplin lookalike contest?",
+      "How did Chaplin become famous?"
+    ],
+    "misconceptions": [
+      {
+        "myth": "Chaplin definitely lost his own lookalike contest",
+        "reality": "Only source is a 1920 newspaper item; the Chaplin office calls it unverified",
+        "source": "https://ca.news.yahoo.com/fact-check-hollywood-tale-claims-020000073.html"
+      }
+    ],
+    "knowledge_level": "Most know the Tramp image; few know the workhouse childhood, United Artists, or the exile."
+  },
+  "angles_discovered": [
+    {
+      "name": "From Workhouse to Standing Ovation",
+      "hook": "At seven he was in a London workhouse. At 82, Hollywood stood for twelve minutes.",
+      "type": "narrative",
+      "why_now": "Strongest contrast in the research (1896 vs 1972)",
+      "grounded_in": [
+        "workhouse 1896",
+        "1972 ovation"
+      ]
+    },
+    {
+      "name": "The Man Who Refused to Talk",
+      "hook": "Hollywood learned to talk in 1927. Chaplin kept quiet for 13 more years.",
+      "type": "contrarian",
+      "why_now": "Silent films into the sound era; fits a silent video",
+      "grounded_in": [
+        "City Lights / Modern Times"
+      ]
+    },
+    {
+      "name": "Banished by the Country He Made Laugh",
+      "hook": "He sailed for London in 1952 — and America locked the door behind him.",
+      "type": "narrative",
+      "why_now": "Exile is the least-known chapter",
+      "grounded_in": [
+        "1952 permit revoked",
+        "1972 return"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Charlie_Chaplin",
+      "title": "Charlie Chaplin — Wikipedia",
+      "used_for": "data_points",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://www.workhouses.org.uk/Chaplin",
+      "title": "Chaplin and the workhouse",
+      "used_for": "data_points",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://britannica.com/biography/Charlie-Chaplin/The-sound-era-City-Lights-to-Limelight",
+      "title": "Britannica: The sound era",
+      "used_for": "data_points",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://www.plansponsor.com/trivial-pursuits-why-was-charlie-chaplin-not-allowed-to-return-to-the-u-s/",
+      "title": "Why Chaplin couldn't return to the US",
+      "used_for": "data_points",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://todayinclh.com/?p=1766",
+      "title": "Chaplin Oscar, 10 April 1972",
+      "used_for": "data_points",
+      "reliability": "secondary"
+    },
+    {
+      "url": "https://www.charliechaplin.com/en/articles/130-The-Chaplin-Office",
+      "title": "The Chaplin Office (rights)",
+      "used_for": "rights",
+      "reliability": "primary"
+    },
+    {
+      "url": "https://ca.news.yahoo.com/fact-check-hollywood-tale-claims-020000073.html",
+      "title": "Fact check: lookalike contest",
+      "used_for": "audience_insights",
+      "reliability": "secondary"
+    }
+  ]
+}
